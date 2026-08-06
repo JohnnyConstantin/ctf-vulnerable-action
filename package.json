@@ -1,0 +1,28 @@
+{
+  "name": "ctf-vulnerable-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyConstantin/ctf-vulnerable-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JohnnyConstantin/ctf-vulnerable-action/issues"
+  },
+  "homepage": "https://github.com/JohnnyConstantin/ctf-vulnerable-action#readme",
+  "dependencies": {
+    "@actions/core": "2.0.3",
+    "@actions/github": "8.0.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.44.1"
+  }
+}

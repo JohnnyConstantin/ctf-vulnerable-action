@@ -1,0 +1,16 @@
+name: 'Rebrain CTF Vulnerable Action'
+description: 'This action has a vulnerability - can you exploit it?'
+inputs:
+  target_name:
+    description: 'Your email'
+    required: true
+    default: 'test@gmail.com'
+  secret_flag:
+    description: 'Secret flag (automatically passed)'
+    required: true
+outputs:
+  current_time:
+    description: 'Current time after execution'
+runs:
+  using: 'node24'
+  main: 'dist/index.js'
